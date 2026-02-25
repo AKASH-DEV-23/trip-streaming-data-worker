@@ -15,8 +15,6 @@ A real-time trip data streaming worker built with **FastAPI** that generates log
 ```
 FastAPI Worker
       ↓
-Azure Event Hub
-      ↓
 Microsoft Fabric Eventstream
       ↓
 Bronze Lakehouse (trips_stream_data)
