@@ -6,7 +6,7 @@
 ![Streaming](https://img.shields.io/badge/Streaming-Real--Time-orange)
 ![Microsoft Fabric](https://img.shields.io/badge/Microsoft-Fabric-purple)
 
-A real-time trip data streaming worker built with **FastAPI** that generates logistics trip events and streams them into **Azure Event Hub → Microsoft Fabric Eventstream → Lakehouse** for real-time analytics using the **medallion architecture**.
+A real-time trip data streaming worker built with **FastAPI** that generates logistics trip events and streams them into **Microsoft Fabric Eventstream → Lakehouse** for real-time analytics using the **medallion architecture**.
 
 ---
 
@@ -33,7 +33,6 @@ Power BI Real-Time Dashboard
 * Real-time trip event generation
 * REST API to start/stop streaming
 * Configurable streaming duration
-* Azure Event Hub producer integration
 * Fabric-ready JSON schema
 * Dockerized deployment
 * Cloud deployable (Koyeb / Fly.io / Render / Azure)
@@ -46,7 +45,6 @@ Power BI Real-Time Dashboard
 
 * Python 3.11
 * FastAPI
-* Azure Event Hub SDK
 * Faker
 * Docker
 * Microsoft Fabric
